@@ -308,8 +308,9 @@ h6,
   content: "";
   width: 35px;
   height: 35px;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 35px;
   background: #dddddd;
   transition: 0.5s;
