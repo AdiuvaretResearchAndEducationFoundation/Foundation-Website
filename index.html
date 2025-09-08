@@ -199,346 +199,465 @@
 
         <div class="container-xxl py-5 bg-primary hero-header mb-5">
           <div class="container my-5 py-5 px-lg-5">
-            <div class="row g-5 py-5">
-              <div class="col-lg-6 text-center text-lg-start">
-                <h1 class="text-white mb-4 animated zoomIn">
-                  Training on Managing Children with ASD, ADHD & LD in Preschool
-                </h1>
-                <p class="text-white pb-3 animated zoomIn">
-                  A specialized 21 days teacher development program designed for
-                  preschool educators to effectively identify, support, and
-                  manage children with Autism Spectrum Disorder (ASD), Attention
-                  Deficit Hyperactivity Disorder (ADHD), and Learning
-                  Disabilities (LD).
-                </p>
-                <a
-                  href="./asd-adhd-traning-registration-from.html"
-                  class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
-                  >Register Now</a
-                >
+            <div
+              id="programCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-bs-interval="4000"
+              data-bs-pause="hover"
+            >
+              >
+              <!-- Carousel Indicators -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#programCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#programCarousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#programCarousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#programCarousel"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#programCarousel"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
               </div>
-              <div class="col-lg-6 text-center text-lg-start">
-                <img class="img-fluid" src="img/hero.png" alt="hero" />
+              <style>
+                /* Enhanced Carousel Controls */
+                .carousel-control-prev,
+                .carousel-control-next {
+                  width: 60px;
+                  height: 60px;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  background: rgba(255, 255, 255, 0.8);
+                  border-radius: 50%;
+                  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+                  border: none;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  transition: background 0.3s;
+                }
+                .carousel-control-prev:hover,
+                .carousel-control-next:hover {
+                  background: #0d6efd;
+                }
+                .carousel-control-prev-icon,
+                .carousel-control-next-icon {
+                  background-size: 60% 60%;
+                  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(180deg);
+                }
+                .carousel-control-prev:hover .carousel-control-prev-icon,
+                .carousel-control-next:hover .carousel-control-next-icon {
+                  filter: none;
+                }
+                .carousel-indicators [data-bs-target] {
+                  width: 14px;
+                  height: 14px;
+                  border-radius: 50%;
+                  background: #fff;
+                  border: 2px solid #0d6efd;
+                  margin: 0 6px;
+                  opacity: 0.7;
+                  transition: background 0.3s, border 0.3s;
+                }
+                .carousel-indicators .active {
+                  background: #0d6efd;
+                  border-color: #fff;
+                  opacity: 1;
+                }
+              </style>
+
+                <!-- Custom style for carousel images -->
+                <style>
+                  .carousel-image {
+                    width: 100%;
+                    height: 300px;
+                    object-fit: contain;
+                    object-position: center;
+                  }
+                </style>
+
+              <!-- Carousel Items -->
+              <div class="carousel-inner">
+                <!-- Slide 1: ASD/ADHD Training -->
+                <div class="carousel-item active">
+                  <div class="row g-5 py-5">
+                    <div class="col-lg-6 text-center text-lg-start">
+                      <h1 class="text-white mb-4 animated zoomIn">
+                        Training on Managing Children with ASD, ADHD & LD in
+                        Preschool
+                      </h1>
+                      <p class="text-white pb-3 animated zoomIn">
+                        A specialized 21 days teacher development program
+                        designed for preschool educators to effectively
+                        identify, support, and manage children with special
+                        needs.
+                      </p>
+                      <a
+                        href="./asd-adhd-traning-registration-from.html"
+                        class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
+                        >Register Now</a
+                      >
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-start">
+                      <img
+                        class="carousel-image"
+                        src="img/hero.png"
+                        alt="ASD/ADHD Training"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slide 2: Executive Management for Preschool -->
+                <div class="carousel-item">
+                  <div class="row g-5 py-5">
+                    <div class="col-lg-6 text-center text-lg-start">
+                      <h1 class="text-white mb-4 animated zoomIn">
+                        Executive Management Program for Preschool
+                        Administration
+                      </h1>
+                      <p class="text-white pb-3 animated zoomIn">
+                        A comprehensive 3-month program designed for preschool
+                        owners and administrators, covering essential business
+                        skills for successful preschool management.
+                      </p>
+                      <a
+                        href="./register-for-preschool-administration.html"
+                        class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
+                        >Register Now</a
+                      >
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-start">
+                      <img
+                        class="carousel-image"
+                        src="img/nursery_teacher_traning.png"
+                        alt="Preschool Management"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slide 3: Skill Development Program -->
+                <div class="carousel-item">
+                  <div class="row g-5 py-5">
+                    <div class="col-lg-6 text-center text-lg-start">
+                      <h1 class="text-white mb-4 animated zoomIn">
+                        Skill Development Program for Public Health and
+                        Bio-Medical Research
+                      </h1>
+                      <p class="text-white pb-3 animated zoomIn">
+                        Enhance your research capabilities with our
+                        comprehensive 30-hour program designed specifically for
+                        PhD scholars in public health and biomedical fields.
+                      </p>
+                      <a
+                        href="/phd-registration-form-for-public-health-and-biomedical-research.html"
+                        class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
+                        >Register Now</a
+                      >
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-start">
+                      <img
+                        class="carousel-image"
+                        src="img/skill-developement-program.png"
+                        alt="Skill Development"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slide 4: Nursery Teachers Training -->
+                <div class="carousel-item">
+                  <div class="row g-5 py-5">
+                    <div class="col-lg-6 text-center text-lg-start">
+                      <h1 class="text-white mb-4 animated zoomIn">
+                        Nursery Teachers Training Program
+                      </h1>
+                      <p class="text-white pb-3 animated zoomIn">
+                        Empowering Innovation, Delivering Excellence. A
+                        comprehensive 6-month training program for early
+                        childhood educators to build innovative teaching skills.
+                      </p>
+                      <a
+                        href="./ntt_register_form.html"
+                        class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
+                        >Register Now</a
+                      >
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-start">
+                      <img
+                        class="carousel-image"
+                        src="img/about.jpg"
+                        alt="Nursery Teacher Training"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slide 5: Executive Management Program -->
+                <div class="carousel-item">
+                  <div class="row g-5 py-5">
+                    <div class="col-lg-6 text-center text-lg-start">
+                      <h1 class="text-white mb-4 animated zoomIn">
+                        Executive Management Program
+                      </h1>
+                      <p class="text-white pb-3 animated zoomIn">
+                        AREF, in collaboration with GBSRC, DPU, brings
+                        best-in-class business skills through cutting edge
+                        executive education with our 1-year program.
+                      </p>
+                      <a
+                        href="contact.html"
+                        class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
+                        >Enroll Now</a
+                      >
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-start">
+                      <img
+                        class="carousel-image"
+                        src="img/executive-managements.png"
+                        alt="Executive Management"
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
+
+              <!-- Carousel Controls -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#programCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#programCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>
       </div>
       <!-- Navbar & Hero End -->
 
-      <!-- Executive Management Program for Preschool Management Start -->
-      <div class="container-xxl py-5" style="background-color: #e6f3ff">
+      <!-- Expandable Cards Section Start -->
+      <div class="container-xxl py-5" style="background-color: #f8f9fa">
         <div class="container px-lg-5">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="section-title position-relative mb-4 pb-2">
-                <h6 class="position-relative text-primary ps-4">
-                  Professional Development
-                </h6>
-                <h2 class="mt-2">
-                  Executive Management Program for Preschool Administration
-                </h2>
-              </div>
-              <p class="mb-4">
-                This comprehensive program is jointly conducted by Global
-                Business School & Research centre, DPU (GBSRC) and Adiuvaret
-                Research & Education Foundation (AREF). Designed specifically
-                for preschool owners and administrators, this 3-month program
-                covers essential business skills needed to successfully manage
-                and grow your preschool.
-                <br />
-              </p>
-              <p class="mb-4">
-                The program is directed by Dr. Snehal Maheskar, Career Expert,
-                Counsellor, Business Coach & Mentor, and focuses on practical
-                strategies for preschool marketing, sales, and brand
-                development.
-              </p>
-              <div class="row g-3">
-                <div class="col-sm-6">
-                  <h6 class="mb-3">
-                    <i class="fa fa-check text-primary me-2"></i>3-Month
-                    Comprehensive Program
-                  </h6>
-                  <h6 class="mb-0">
-                    <i class="fa fa-check text-primary me-2"></i>Classroom
-                    Teaching & Case Studies
-                  </h6>
-                </div>
-                <div class="col-sm-6">
-                  <h6 class="mb-3">
-                    <i class="fa fa-check text-primary me-2"></i>Practical
-                    Projects & Assignments
-                  </h6>
-                  <h6 class="mb-0">
-                    <i class="fa fa-check text-primary me-2"></i>Marketing &
-                    Brand Building Skills
-                  </h6>
-                </div>
-              </div>
-              <div class="d-flex align-items-center mt-4">
-                <a
-                  class="btn btn-primary rounded-pill px-4 me-3"
-                  href="./register-for-preschool-administration.html"
-                  >Register Now</a
-                >
-                <a
-                  class="btn btn-outline-primary rounded-pill px-4 ms-3"
-                  href="/pdf/professional_development.pdf"
-                >
-                  Download Brochure
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <img
-                class="img-fluid wow zoomIn"
-                data-wow-delay="0.5s"
-                src="img/nursery_teacher_traning.png"
-                alt="Preschool Management Program"
-              />
-            </div>
+          <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="position-relative d-inline text-primary ps-4">Our Programs</h6>
+            <h2 class="mt-2">Comprehensive Training & Development Programs</h2>
           </div>
-        </div>
-      </div>
-      <!-- Executive Management Program for Preschool Management End -->
-      <!-- Skill Development Program for Public Health and Bio-Medical Research Start -->
-      <div class="container-xxl py-5" style="background-color: #ecd4c0">
-        <div class="container px-lg-5">
-          <div class="row g-5">
-            <div class="col-lg-6">
-              <img
-                class="img-fluid wow zoomIn"
-                data-wow-delay="0.5s"
-                src="img/skill-developement-program.png"
-                alt="PhD Skill Development Program"
-              />
+          
+          <!-- Card 1: Executive Management Program for Preschool Management -->
+          <div class="card mb-4 shadow-sm wow fadeInUp" data-wow-delay="0.1s">
+            <div class="card-header bg-secondary text-white p-4 cursor-pointer" onclick="toggleCard('card1')">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">Executive Management Program for Preschool Administration</h4>
+                <i class="fa fa-chevron-down" id="icon1"></i>
+              </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="section-title position-relative mb-4 pb-2">
-                <h6 class="position-relative text-primary ps-4">
-                  Advanced Training
-                </h6>
-                <h2 class="mt-2">
-                  Skill Development Program for Public Health and Bio-Medical
-                  Research
-                </h2>
-              </div>
-              <p class="mb-4">
-                Enhance your research capabilities with our comprehensive
-                30-hour program designed specifically for PhD scholars. This
-                program strengthens your abilities for doctoral research beyond
-                mandatory coursework.
-              </p>
-              <p class="mb-4">
-                Organized by Global Business School & Research Centre, DPU
-                (GBSRC) and Adiuvaret Research & Education Foundation (AREF),
-                under the direction of Dr. Biranchi Jena, Professor.
-              </p>
-              <div class="row g-3">
-                <div class="col-sm-6">
-                  <h6 class="mb-3">
-                    <i class="fa fa-check text-primary me-2"></i>Online via Zoom
-                  </h6>
-                  <h6 class="mb-0">
-                    <i class="fa fa-check text-primary me-2"></i>3 Months
-                    Completion
-                  </h6>
+            <div class="card-body collapse" id="card1">
+              <div class="row g-5 p-3">
+                <div class="col-lg-6">
+                  <div class="section-title position-relative mb-4 pb-2">
+                    <h6 class="position-relative text-primary ps-4">Professional Development</h6>
+                  </div>
+                  <p class="mb-4">
+                    This comprehensive program is jointly conducted by Global Business School & Research centre, DPU (GBSRC) and Adiuvaret Research & Education Foundation (AREF). Designed specifically for preschool owners and administrators, this 3-month program covers essential business skills needed to successfully manage and grow your preschool.
+                  </p>
+                  <p class="mb-4">
+                    The program is directed by Dr. Snehal Maheskar, Career Expert, Counsellor, Business Coach & Mentor, and focuses on practical strategies for preschool marketing, sales, and brand development.
+                  </p>
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>3-Month Comprehensive Program</h6>
+                      <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Classroom Teaching & Case Studies</h6>
+                    </div>
+                    <div class="col-sm-6">
+                      <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Practical Projects & Assignments</h6>
+                      <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Marketing & Brand Building Skills</h6>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center mt-4">
+                    <a class="btn btn-primary rounded-pill px-4 me-3" href="./register-for-preschool-administration.html">Register Now</a>
+                    <a class="btn btn-outline-primary rounded-pill px-4 ms-3" href="/pdf/professional_development.pdf">Download Brochure</a>
+                  </div>
                 </div>
-                <div class="col-sm-6">
-                  <h6 class="mb-3">
-                    <i class="fa fa-check text-primary me-2"></i>DPU Students:
-                    ₹9,000
-                  </h6>
-                  <h6 class="mb-0">
-                    <i class="fa fa-check text-primary me-2"></i>Non-DPU:
-                    ₹15,000
-                  </h6>
+                <div class="col-lg-6">
+                  <img class="img-fluid" src="img/nursery_teacher_traning.png" alt="Preschool Management Program" />
                 </div>
-              </div>
-              <div class="d-flex align-items-center mt-4">
-                <a
-                  class="btn btn-primary rounded-pill px-4 mt-3"
-                  href="/phd-registration-form-for-public-health-and-biomedical-research.html"
-                >
-                  Register Now
-                </a>
-                <a
-                  class="btn btn-outline-primary rounded-pill px-4 mt-3 ms-2"
-                  href="/img/skill_development_program.jpg"
-                >
-                  Download Brochure
-                </a>
-                <a
-                  href="./book-appointment-with-tarainer.html"
-                  class="btn btn-outline-primary px-4 mt-3 ms-2 rounded-pill animated slideInRight"
-                  >Request a Consultation</a
-                >
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- Skill Development Program for Public Health and Bio-Medical Research End -->
+          
+          <!-- Card 2: Skill Development Program -->
+          <div class="card mb-4 shadow-sm wow fadeInUp" data-wow-delay="0.3s">
+            <div class="card-header bg-success text-white p-4 cursor-pointer" onclick="toggleCard('card2')">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">Skill Development Program for Public Health and Bio-Medical Research</h4>
+                <i class="fa fa-chevron-down" id="icon2"></i>
+              </div>
+            </div>
+            <div class="card-body collapse" id="card2">
+              <div class="row g-5 p-3">
+                <div class="col-lg-6">
+                  <img class="img-fluid" src="img/skill-developement-program.png" alt="PhD Skill Development Program" />
+                </div>
+                <div class="col-lg-6">
+                  <div class="section-title position-relative mb-4 pb-2">
+                    <h6 class="position-relative text-primary ps-4">Advanced Training</h6>
+                  </div>
+                  <p class="mb-4">
+                    Enhance your research capabilities with our comprehensive 30-hour program designed specifically for PhD scholars. This program strengthens your abilities for doctoral research beyond mandatory coursework.
+                  </p>
+                  <p class="mb-4">
+                    Organized by Global Business School & Research Centre, DPU (GBSRC) and Adiuvaret Research & Education Foundation (AREF), under the direction of Dr. Biranchi Jena, Professor.
+                  </p>
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Online via Zoom</h6>
+                      <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>3 Months Completion</h6>
+                    </div>
+                    <div class="col-sm-6">
+                      <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>DPU Students: ₹9,000</h6>
+                      <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Non-DPU: ₹15,000</h6>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center mt-4">
+                    <a class="btn btn-primary rounded-pill px-4 mt-3" href="/phd-registration-form-for-public-health-and-biomedical-research.html">Register Now</a>
+                    <a class="btn btn-outline-primary rounded-pill px-4 mt-3 ms-2" href="/img/skill_development_program.jpg">Download Brochure</a>
+                    <a href="./book-appointment-with-tarainer.html" class="btn btn-outline-primary px-4 mt-3 ms-2 rounded-pill">Request a Consultation</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <!-- About Us Start -->
-      <div class="container-xxl py-5" style="background-color: #e6f3ff">
-        <div class="container px-lg-5">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="section-title position-relative mb-4 pb-2">
-                <h6 class="position-relative text-primary ps-4">
-                  Nursery Teachers Training Program
-                </h6>
-                <h2 class="mt-2">
-                  Empowering Innovation, Delivering Excellence
-                </h2>
-              </div>
-              <p class="mb-4">
-                Adiuvaret Research & Education Foundation (AREF) is an
-                organisation incorporated with Govt. of India to focus on
-                research and education aspects of child development including
-                establishing best practices in skill building across the globe.
-                In collaboration with D Y Patil University we have developed
-                comprehensive 6 month training programs and 1 year certificate
-                courses of NTT- Nursery Teachers Training which will help early
-                childhood teachers in India to use innovative methods of skill
-                building
-                <br />
-              </p>
-              <div class="row g-3">
-                <div class="col-sm-6">
-                  <h6 class="mb-3">
-                    <i class="fa fa-check text-primary me-2"></i>Online live
-                    classes
-                  </h6>
-                  <h6 class="mb-0">
-                    <i class="fa fa-check text-primary me-2"></i>Additional
-                    Udemy Certified
-                  </h6>
-                </div>
-                <div class="col-sm-6">
-                  <h6 class="mb-3">
-                    <i class="fa fa-check text-primary me-2"></i> AREF and GBSRC
-                    certificate
-                  </h6>
-                  <h6 class="mb-0">
-                    <i class="fa fa-check text-primary me-2"></i>Placement
-                    Assistance
-                  </h6>
-                </div>
-              </div>
-              <div class="d-flex align-items-center mt-4">
-                <a
-                  class="btn btn-primary rounded-pill px-4 me-3"
-                  href="./ntt_register_form.html"
-                >
-                  Register Here
-                </a>
-                <a
-                  href="./pdf/ntt_program.pdf"
-                  class="btn btn-outline-primary px-4 me-3 rounded-pill animated slideInRight"
-                >
-                  Download Brochure
-                </a>
-                <a
-                  href="./book-appointment-with-tarainer.html"
-                  class="btn btn-outline-primary px-4 me-3 rounded-pill animated slideInRight"
-                >
-                  Request a Consultation
-                </a>
+          
+          <!-- Card 3: About Us (NTT Program) -->
+          <div class="card mb-4 shadow-sm wow fadeInUp" data-wow-delay="0.5s">
+            <div class="card-header bg-info text-white p-4 cursor-pointer" onclick="toggleCard('card3')">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">Nursery Teachers Training Program</h4>
+                <i class="fa fa-chevron-down" id="icon3"></i>
               </div>
             </div>
-            <div class="col-lg-6">
-              <img
-                class="img-fluid wow zoomIn"
-                data-wow-delay="0.5s"
-                src="img/about.jpg"
-              />
+            <div class="card-body collapse" id="card3">
+              <div class="row g-5 p-3">
+                <div class="col-lg-6">
+                  <div class="section-title position-relative mb-4 pb-2">
+                    <h6 class="position-relative text-primary ps-4">Nursery Teachers Training Program</h6>
+                    <h2 class="mt-2">Empowering Innovation, Delivering Excellence</h2>
+                  </div>
+                  <p class="mb-4">
+                    Adiuvaret Research & Education Foundation (AREF) is an organisation incorporated with Govt. of India to focus on research and education aspects of child development including establishing best practices in skill building across the globe. In collaboration with D Y Patil University we have developed comprehensive 6 month training programs and 1 year certificate courses of NTT- Nursery Teachers Training which will help early childhood teachers in India to use innovative methods of skill building
+                  </p>
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Online live classes</h6>
+                      <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Additional Udemy Certified</h6>
+                    </div>
+                    <div class="col-sm-6">
+                      <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>AREF and GBSRC certificate</h6>
+                      <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Placement Assistance</h6>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center mt-4">
+                    <a class="btn btn-primary rounded-pill px-4 me-3" href="./ntt_register_form.html">Register Here</a>
+                    <a href="./pdf/ntt_program.pdf" class="btn btn-outline-primary px-4 me-3 rounded-pill">Download Brochure</a>
+                    <a href="./book-appointment-with-tarainer.html" class="btn btn-outline-primary px-4 me-3 rounded-pill">Request a Consultation</a>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <img class="img-fluid" src="img/about.jpg" alt="NTT Program" />
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- About Us End -->
 
-      <!-- Executive Management Program Start -->
-      <div class="container-xxl py-5" style="background-color: #fff9e6">
-        <div class="container px-lg-5">
-          <div class="row g-5">
-            <div class="col-lg-6">
-              <img
-                class="img-fluid wow zoomIn"
-                data-wow-delay="0.5s"
-                src="img/executive-managements.png"
-                alt="Executive Management Program"
-              />
+          
+          <!-- Card 4: Executive Management Program -->
+          <div class="card mb-4 shadow-sm wow fadeInUp" data-wow-delay="0.7s">
+            <div class="card-header bg-warning text-dark p-4 cursor-pointer" onclick="toggleCard('card4')">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">Executive Management Program</h4>
+                <i class="fa fa-chevron-down" id="icon4"></i>
+              </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="section-title position-relative mb-4 pb-2">
-                <h6 class="position-relative text-primary ps-4">
-                  Business Skills Development
-                </h6>
-                <h2 class="mt-2">Executive Management Program</h2>
-              </div>
-              <p class="mb-4">
-                AREF, in collaboration with GBSRC, DPU, brings best-in-class
-                business skills through cutting edge executive education
-                program. This 1-year program is designed to allow making desired
-                changes in the workplace.
-              </p>
-              <p class="mb-4">
-                The program follows a 4×4 Model (4 sessions, 4 days each)
-                covering core management components including Human Resources,
-                Marketing, Operations Management, Financial Management, Project
-                Management, and Leadership.
-              </p>
-              <div class="row g-3">
-                <div class="col-sm-6">
-                  <h6 class="mb-3">
-                    <i class="fa fa-check text-primary me-2"></i>150 Hours
-                    Contact Program
-                  </h6>
-                  <h6 class="mb-0">
-                    <i class="fa fa-check text-primary me-2"></i>One-to-One
-                    Mentoring
-                  </h6>
+            <div class="card-body collapse" id="card4">
+              <div class="row g-5 p-3">
+                <div class="col-lg-6">
+                  <img class="img-fluid" src="img/executive-managements.png" alt="Executive Management Program" />
                 </div>
-                <div class="col-sm-6">
-                  <h6 class="mb-3">
-                    <i class="fa fa-check text-primary me-2"></i>Alternative
-                    Weekend Classes
-                  </h6>
-                  <h6 class="mb-0">
-                    <i class="fa fa-check text-primary me-2"></i>Harvard
-                    Business Review Cases
-                  </h6>
+                <div class="col-lg-6">
+                  <div class="section-title position-relative mb-4 pb-2">
+                    <h6 class="position-relative text-primary ps-4">Business Skills Development</h6>
+                  </div>
+                  <p class="mb-4">
+                    AREF, in collaboration with GBSRC, DPU, brings best-in-class business skills through cutting edge executive education program. This 1-year program is designed to allow making desired changes in the workplace.
+                  </p>
+                  <p class="mb-4">
+                    The program follows a 4×4 Model (4 sessions, 4 days each) covering core management components including Human Resources, Marketing, Operations Management, Financial Management, Project Management, and Leadership.
+                  </p>
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>150 Hours Contact Program</h6>
+                      <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>One-to-One Mentoring</h6>
+                    </div>
+                    <div class="col-sm-6">
+                      <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Alternative Weekend Classes</h6>
+                      <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Harvard Business Review Cases</h6>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center mt-3">
+                    <a class="btn btn-primary rounded-pill px-4 me-2" href="contact.html">Enroll Now</a>
+                    <a class="btn btn-outline-primary rounded-pill px-4 me-2" href="/pdf/Complete Syllabus and Lesson Plan_Executive Management Program.pdf">Download Brochure</a>
+                    <a href="./book-appointment-with-tarainer.html" class="btn btn-outline-primary px-4 rounded-pill">Request a Consultation</a>
+                  </div>
                 </div>
-              </div>
-              <div class="d-flex align-items-center mt-3">
-                <a
-                  class="btn btn-primary rounded-pill px-4 me-2"
-                  href="contact.html"
-                >
-                  Enroll Now
-                </a>
-                <a
-                  class="btn btn-outline-primary rounded-pill px-4 me-2"
-                  href="/pdf/Complete Syllabus and Lesson Plan_Executive Management Program.pdf"
-                >
-                  Download Brochure
-                </a>
-                <a
-                  href="./book-appointment-with-tarainer.html"
-                  class="btn btn-outline-primary px-4 rounded-pill animated slideInRight"
-                >
-                  Request a Consultation
-                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- Executive Management Program End -->
+      <!-- Expandable Cards Section End -->
       <!-- Testimonial Start -->
       <div
         class="container-xxl bg-primary testimonial py-5 my-5 wow fadeInUp"
@@ -980,5 +1099,63 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <!-- Carousel Auto-scroll JS (external) -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var carousel = document.getElementById('programCarousel')
+        if (carousel) {
+          var bsCarousel = new bootstrap.Carousel(carousel, {
+            interval: 4000,
+            ride: 'carousel',
+            pause: false
+          })
+        }
+      })
+      
+      // Card toggle functionality
+      function toggleCard(cardId) {
+        var cardBody = document.getElementById(cardId);
+        var icon = document.getElementById('icon' + cardId.slice(-1));
+        
+        if (cardBody.classList.contains('show')) {
+          cardBody.classList.remove('show');
+          icon.classList.remove('fa-chevron-up');
+          icon.classList.add('fa-chevron-down');
+        } else {
+          // Close all other cards
+          var allCards = ['card1', 'card2', 'card3', 'card4'];
+          allCards.forEach(function(id) {
+            var card = document.getElementById(id);
+            var cardIcon = document.getElementById('icon' + id.slice(-1));
+            if (card && card.classList.contains('show')) {
+              card.classList.remove('show');
+              cardIcon.classList.remove('fa-chevron-up');
+              cardIcon.classList.add('fa-chevron-down');
+            }
+          });
+          
+          // Open clicked card
+          cardBody.classList.add('show');
+          icon.classList.remove('fa-chevron-down');
+          icon.classList.add('fa-chevron-up');
+        }
+      }
+    </script>
+    
+    <!-- Custom CSS for cards -->
+    <style>
+      .cursor-pointer {
+        cursor: pointer;
+      }
+      .card-header:hover {
+        opacity: 0.9;
+      }
+      .collapse {
+        display: none;
+      }
+      .collapse.show {
+        display: block;
+      }
+    </style>
   </body>
 </html>
