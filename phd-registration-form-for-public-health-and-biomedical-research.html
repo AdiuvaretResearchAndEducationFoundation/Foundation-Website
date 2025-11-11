@@ -84,169 +84,22 @@
                   Registration Form
                 </h6>
                 <h2 class="mt-2">Skill Development Program for Public Health and Biomedical Research</h2>
-
               </div>
+              
               <div class="wow fadeInUp" data-wow-delay="0.3s">
-                <form
-                  action="https://formspree.io/f/xvgryndw"
-                  method="POST"
-                  enctype="multipart/form-data"
-                  id="phdApplicationForm"
-                >
-                  <div class="row g-3">
-                    <!-- Applicant Name -->
-                    <div class="col-12">
-                      <div class="form-floating">
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="applicantName"
-                          name="applicantName"
-                          placeholder="Full Name"
-                          required
-                        />
-                        <label for="applicantName">Full Name *</label>
-                      </div>
-                    </div>
-
-                    <!-- Email -->
-                    <div class="col-12">
-                      <div class="form-floating">
-                        <input
-                          type="email"
-                          class="form-control"
-                          id="email"
-                          name="email"
-                          placeholder="Email Address"
-                          required
-                        />
-                        <label for="email">Email Address *</label>
-                      </div>
-                    </div>
-
-                    <!-- Phone -->
-                    <div class="col-12">
-                      <div class="form-floating">
-                        <input
-                          type="tel"
-                          class="form-control"
-                          id="phone"
-                          name="phone"
-                          placeholder="Phone Number"
-                          required
-                        />
-                        <label for="phone">Phone Number *</label>
-                      </div>
-                    </div>
-
-                    <!-- PhD Topic -->
-                    <div class="col-12">
-                      <div class="form-floating">
-                        <textarea
-                          class="form-control"
-                          id="phdTopic"
-                          name="phdTopic"
-                          placeholder="Proposed PhD Research Topic"
-                          style="height: 120px"
-                          required
-                        ></textarea>
-                        <label for="phdTopic">PhD Research Topic*</label>
-                      </div>
-                    </div>
-
-                    <!-- PhD Guide -->
-                    <div class="col-12">
-                      <div class="form-floating">
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="phdGuide"
-                          name="phdGuide"
-                          placeholder="PhD Guide/Supervisor"
-                        />
-                        <label for="phdGuide">PhD Guide/Supervisor (if any)</label>
-                      </div>
-                    </div>
-
-                    <!-- Toast Notification Container -->
-                    <div
-                      id="toast-container"
-                      style="
-                        position: fixed;
-                        bottom: 10px;
-                        right: 10px;
-                        z-index: 9999;
-                      "
-                    ></div>
-
-                    <!-- Research Area Selection -->
-                    <div class="col-12">
-                      <div class="form-floating">
-                        <select class="form-control" id="researchArea" name="researchArea" required>
-                          <option value="">Select Research Area</option>
-                          <option value="Public Health">Public Health</option>
-                          <option value="Biomedical Research">Biomedical Research</option>
-                          <option value="Epidemiology">Epidemiology</option>
-                          <option value="Health Policy">Health Policy</option>
-                          <option value="Clinical Research">Clinical Research</option>
-                          <option value="Environmental Health">Environmental Health</option>
-                          <option value="Biostatistics">Biostatistics</option>
-                          <option value="Other">Other</option>
-                        </select>
-                        <label for="researchArea">Primary Research Area *</label>
-                      </div>
-                    </div>
-
-                    <!-- DPU Affiliation -->
-                    <div class="col-12">
-                      <div class="form-floating">
-                        <select class="form-control" id="dpuAffiliation" name="dpuAffiliation" required>
-                          <option value="">Select Option</option>
-                          <option value="Yes">Yes</option>
-                          <option value="No">No</option>
-                        </select>
-                        <label for="dpuAffiliation">Are you affiliated with Dr. D.Y. Patil University (DPU)? *</label>
-                      </div>
-                    </div>
-
-                    <!-- Additional Information -->
-                    <div class="col-12">
-                      <div class="form-floating">
-                        <textarea
-                          class="form-control"
-                          id="additionalInfo"
-                          name="additionalInfo"
-                          placeholder="Additional Information"
-                          style="height: 100px"
-                        ></textarea>
-                        <label for="additionalInfo">Additional Information or Research Background</label>
-                      </div>
-                    </div>
-
-                    <!-- Terms and Conditions -->
-                    <div class="col-12">
-                      <div class="form-check">
-                        <input
-                          type="checkbox"
-                          class="form-check-input"
-                          id="agree"
-                          name="agree"
-                          required
-                        />
-                        <label class="form-check-label" for="agree">
-                          I agree to the terms and conditions and confirm that all information provided is accurate *
-                        </label>
-                      </div>
-                    </div>
-
-                    <!-- Submit Button -->
-                    <div class="col-12">
-                      <button class="btn btn-primary w-100 py-3" type="submit">
-                        Submit
-                      </button>
-                    </div>
-                  </div>
-                </form>
+                <div class="text-center">
+                  <iframe 
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSdYXog5i7QSi3idkxIYPT4S6VUJ5UWXdP0_ei2VX8smGZvUwA/viewform?embedded=true" 
+                    width="100%" 
+                    height="1915" 
+                    frameborder="0" 
+                    marginheight="0" 
+                    marginwidth="0"
+                    style="max-width: 640px; margin: 0 auto; display: block;"
+                  >
+                    Loading…
+                  </iframe>
+                </div>
               </div>
             </div>
           </div>
@@ -267,63 +120,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    
-    <!-- PhD Form Validation Script -->
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const form = document.getElementById('phdApplicationForm');
-        const submitButton = form.querySelector('button[type="submit"]');
-        
-        // Form validation
-        form.addEventListener('submit', function(e) {
-          const requiredFields = form.querySelectorAll('[required]');
-          let isValid = true;
-          
-          requiredFields.forEach(field => {
-            if (!field.value.trim()) {
-              isValid = false;
-              field.classList.add('is-invalid');
-            } else {
-              field.classList.remove('is-invalid');
-            }
-          });
-          
-          if (!isValid) {
-            e.preventDefault();
-            showToast('Please fill in all required fields.', 'error');
-          } else {
-            showToast('Form submitted successfully!', 'success');
-          }
-        });
-        
-        // Real-time validation
-        const inputs = form.querySelectorAll('input, textarea, select');
-        inputs.forEach(input => {
-          input.addEventListener('blur', function() {
-            if (this.hasAttribute('required') && !this.value.trim()) {
-              this.classList.add('is-invalid');
-            } else {
-              this.classList.remove('is-invalid');
-            }
-          });
-        });
-        
-        // Toast notification function
-        function showToast(message, type) {
-          const toastContainer = document.getElementById('toast-container');
-          const toast = document.createElement('div');
-          toast.className = `alert alert-${type === 'error' ? 'danger' : 'success'} alert-dismissible fade show`;
-          toast.innerHTML = `
-            ${message}
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-          `;
-          toastContainer.appendChild(toast);
-          
-          setTimeout(() => {
-            toast.remove();
-          }, 5000);
-        }
-      });
-    </script>
   </body>
 </html>
